@@ -1,4 +1,7 @@
-print('='*10, 'Loja Online', '='*10)
+'''
+CALCULANDO DESCONTOS: Faça um algoritmo que leia o preço de um produto e mostre seu
+novo preço, com 5% de desconto
+'''
 
 valor = float(input('Qual valor do produto? R$'))
 desc = valor * 5 / 100
