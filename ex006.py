@@ -1,4 +1,7 @@
-print('=' * 10, 'Dobro, Triplo e Raiz Quadrada', '=' * 10)
+'''
+DOBRO, TRIPLO, RAIZ QUDRADA:  Crie um programa que leia um número e mostre seu
+dobro, triplo e raiz quadrada.
+'''
 
 from math import pow
 
