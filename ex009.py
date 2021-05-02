@@ -1,3 +1,7 @@
+'''
+TABUADA: Faça um programa que leia um número inteiro qualquer e mostre na tela sua tabuada
+'''
+
 n = int(input('Digite um valor para ver sua tabuada:'))
 print('='*14)
 print('{} x  0 = {}'.format(n, n*0))
