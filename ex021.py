@@ -1,9 +1,9 @@
-# importa biblioteca
+# importa bibliotecas
 import pygame
 import os
 # iniciar pygame
 pygame.init()
-# configuracoes codigo
+# configurações código
 if os.path.exists('ex021.mp3'):
     pygame.mixer.music.load('ex021.mp3')
     pygame.mixer.music.play()
