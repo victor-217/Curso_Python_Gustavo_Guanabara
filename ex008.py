@@ -1,4 +1,8 @@
-print('='*10, 'Convertor de medidas', '='*10)
+'''
+CONVERSOR DE MEDIDAS : Escreva um programa que leia um valor em metros e o exiba
+convertidos em centrimetros e milímetros.
+'''
+
 mt = float(input('Uma distância em metros:  '))
 km = mt / 1000
 hm = mt / 100
