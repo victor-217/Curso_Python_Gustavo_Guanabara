@@ -1,4 +1,7 @@
-print('='*10, 'Ajuste Salarial', '='*10)
+'''
+REAJUSTE SALARIAL: Faça um algoritmo que leia o salário de um funcionário e mostre
+seu novo salário, com 15% de aumento
+'''
 
 sl = float(input('Qual valor do salário do funcionário? R$'))
 aumento = sl + (sl*15 / 100)
