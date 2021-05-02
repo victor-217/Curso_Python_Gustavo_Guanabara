@@ -1,4 +1,8 @@
-print('='*10, 'ex 004', '='*10)
+'''
+DISSECANDO UMA VARIÁVEL: Faça um programa que leia algo pelo  teclado e mostre na tela seu tipo
+primitivo e todas as informações possíveis sobre ele.
+'''
+
 algo = input('Digite algo: ')
 print('\nTipo primitivo {}'.format(type(algo)))
 print('Só tem espaços? {}'.format(algo.isspace()))
