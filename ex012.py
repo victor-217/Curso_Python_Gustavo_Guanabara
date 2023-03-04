@@ -1,10 +1,11 @@
-'''
-CALCULANDO DESCONTOS: Faça um algoritmo que leia o preço de um produto e mostre seu
-novo preço, com 5% de desconto
-'''
+"""EX012: Faça um algoritmo que leia o preço de um produto e mostre na tela seu
+novo preço, com 5% de desconto."""
 
-valor = float(input('Qual valor do produto? R$'))
-desc = valor * 5 / 100
-df = valor - desc
-print('\nEste produto esta com desconto de 5%')
-print('O produto que custava R${} na promoção vai custar R${:.2f}'.format(valor, df))
+print('\033[95m========== LOJA ONLINE ==========\033[m')
+
+valor = float(input('>>> Qual valor do produto? R$'))
+
+desconto = (valor*5)/100
+
+print('\n\033[32m>> VOCÊ GANHOU UM DESCONTO DE 5%!\033[m')
+print(f'> Valor final a ser pago é de R${valor-desconto:.2f}')
