@@ -1,9 +1,9 @@
-'''
-MÉDIA ARITMÉTICA: Desenvolva  um programa que leia as duas notas de um aluno,
-calcule e mostre a sua média.
-'''
+"""EX007: Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre sua média."""
 
-nota1 = float(input('Informe a primeira nota do aluno: '))
-nota2 = float(input('Segundo nota do aluno: '))
-media = (nota1 + nota2) / 2
-print('\nA média entre {} e {} é igual a {:.1f}'.format(nota1, nota2, media))
+nota1 = float(input('>>> Primeira nota do aluno: '))
+nota2 = float(input('>>> Segunda nota do aluno: '))
+
+media = (nota1+nota2)/2
+
+print(f'\n>> Com notas {nota1} e {nota2} a média do aluno é de {media:.2}')
+
