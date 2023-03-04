@@ -1,11 +1,10 @@
-'''
-DOBRO, TRIPLO, RAIZ QUDRADA:  Crie um programa que leia um número e mostre seu
-dobro, triplo e raiz quadrada.
-'''
+"""EX006: Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada."""
 
-from math import pow
+from math import sqrt
 
-num = int(input('Digite um número: '))
-print('\nO dobro de {} vale {}'.format(num, num * 2))
-print('O triplo de {} vale {}'.format(num, num * 3))
-print('A raiz quadrada de {} é igual a {:.2f}'.format(num, pow(num, (1 / 2))))
+num = float(input('>>> Digite um número: '))
+
+print(f'>> Analizando o número {num}...')
+print(f'> Seu DOBRO é {num*2}')
+print(f'> Seu TRIPLO é {num*3}')
+print(f'> Sua RAIZ QUADRADA é {sqrt(num):.2f}')
