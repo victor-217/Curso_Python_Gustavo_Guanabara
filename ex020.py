@@ -1,15 +1,16 @@
-'''
-O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalho dos alunos.
-Faça um programa que leia o nome dos quatro alunos e mostre a ordem de sorteada.
-'''
+"""EX020: O mesmo professor do desafio anterior quer sortear a ordem de apresentacao dos trabalhos
+dos alunos. Faca um programa que leia o nome dos quatro alunos e mostre a ordem sorteada."""
+
 
 from random import shuffle
 
-a1 = str(input('Primeiro aluno: ').title())
-a2 = str(input('Segundo aluno: ').title())
-a3 = str(input('Terceiro aluno: ').title())
-a4 = str(input('Quarto aluno: ').title())
-lista = [a1, a2, a3, a4]
-shuffle(lista)
-print('\nA ordem de apresentação será')
-print(lista)
+aluno1 = str(input('>>> Primeiro aluno: ').title())
+aluno2 = str(input('>>> Segundo aluno: ').title())
+aluno3 = str(input('>>> Terceiro aluno: ').title())
+aluno4 = str(input('>>> Quarto aluno: ').title())
+
+alunos = [aluno1, aluno2, aluno3, aluno4]
+shuffle(alunos)
+
+print('\n>> A ordem de apresentação será:')
+print(alunos)
